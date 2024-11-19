@@ -1,1 +1,13 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="pxt-on-start" id="U^39y%f27e~]FrAyi=f^" x="0" y="0"><statement name="HANDLER"><block type="basic_show_icon" id="Td?6t[|z8+Xgi0wu`ZTI"><field name="i">IconNames.Diamond</field><next><block type="radio_set_group" id="MX.:^:Hh}AT=UQDkp{;K"><value name="ID"><shadow type="math_number_minmax" id="kGE,,Y!p3g27~U%T]L-5"><mutation min="0" max="255" label="Id" precision="0"></mutation><field name="SLIDER">1</field></shadow></value><next><block type="radio_set_transmit_power" id="hD*)i,bfxPBXUG?M7CSM"><value name="power"><shadow type="math_number_minmax" id=".r=o)i7q@x;Qcdg{a`,s"><mutation min="0" max="7" label="Power" precision="0"></mutation><field name="SLIDER">6</field></shadow></value></block></next></block></next></block></statement></block><block type="device_forever" id="b::GKeu?fVjlwL**eJ7V" x="461" y="48"><statement name="HANDLER"><block type="radio_datagram_send_string" id="|gWdC=UMZ!II:_Z=3;|f"><value name="msg"><shadow type="text" id="Vz*muV.(1l7SyF[BClqZ"><field name="TEXT">A</field></shadow></value><next><block type="basic_show_icon" id="=dA!TYq.kk^EKpnYh|lz"><field name="i">IconNames.Diamond</field><next><block type="basic_show_icon" id="p*sM1@(kiN=;?`{`1?F6"><field name="i">IconNames.SmallDiamond</field></block></next></block></next></block></statement></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="pxt-on-start" id="U^39y%f27e~]FrAyi=f^" x="0" y="0"><statement name="HANDLER"><block type="basic_show_icon" id="Td?6t[|z8+Xgi0wu`ZTI"><field name="i">IconNames.Diamond</field><next><block type="radio_set_group" id="MX.:^:Hh}AT=UQDkp{;K"><value name="ID"><shadow type="math_number_minmax" id="kGE,,Y!p3g27~U%T]L-5"><mutation min="0" max="255" label="Id" precision="0"></mutation><field name="SLIDER">1</field></shadow></value><next><block type="radio_set_transmit_power" id="hD*)i,bfxPBXUG?M7CSM"><value name="power"><shadow type="math_number_minmax" id=".r=o)i7q@x;Qcdg{a`,s"><mutation min="0" max="7" label="Power" precision="0"></mutation><field name="SLIDER">6</field></shadow></value></block></next></block></next></block></statement></block><block type="device_forever" id="b::GKeu?fVjlwL**eJ7V" x="682" y="172"><statement name="HANDLER"><block type="radio_datagram_send_string" id="|gWdC=UMZ!II:_Z=3;|f"><value name="msg"><shadow type="text" id="Vz*muV.(1l7SyF[BClqZ"><field name="TEXT">A</field></shadow></value><next><block type="device_show_leds" id="@D+|-Xx46G*I=q4*]0,n"><field name="LEDS">`
+        . . # . . 
+        . . . # . 
+        # # # # # 
+        . . . # . 
+        . . # . .
+        `</field><next><block type="device_show_leds" id="5cTwNjP1?FP:5q8UjXUg"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></next></block></statement></block></xml>
